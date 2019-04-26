@@ -1,0 +1,15 @@
+{
+  "name": "@rich/richway-draw-canvas-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "thrift.js",
+  "scripts": {
+    "canvas_pm2":"pm2 start thrift.js"
+  },
+  "author": "df",
+  "license": "ISC",
+  "dependencies": {
+    "thrift": "^0.12.0",
+    "canvas":"^2.4.1"
+  }
+}
